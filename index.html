@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grid Layout Desafio02</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+  </head>
+  <body>
+    <!-- Distribucion de Areas con Grid boxes -->
+    <div class="boxes">
+      <!-- Areas:  Navbar, Sidebar, Productos, Footer -->
+
+      <!-- Titulo Cabeza Banner  -->
+      <div class="box navbar">
+        <h1>Darkcrink</h1>
+        <h3>Tattoo Suplies</h3>
+      </div>
+      <!-- Barra Lateral -->
+      <div class="box sidebar">
+        <h2>Categorías</h2>
+        <div class="menu">
+          <ul>
+            <li><a href="#">Máquinas Pen (20)</a></li>
+            <li><a href="#">Máquinas de Bobina (15)</a></li>
+            <li><a href="#">Cartriges (52)</a></li>
+            <li><a href="#">Pigmentos (76)</a></li>
+            <li><a href="#">Limpieza (27)</a></li>
+            <li><a href="#">Piel Sintética (150)</a></li>
+          </ul>
+        </div>
+      </div>
+      <!-- Productos Principal -->
+      <div class="box productos">
+       <h3>Productos</h3> 
+        <div class="container">
+          <div class="items">
+            <div class="card">
+              <img src="./assets/img/penmachine.jpg" alt="maquinapen" />
+              <h3>Máquinas Pen</h3>
+              <p>$300.000</p>
+              <button>Agregar al Carrito</button>
+            </div>
+          </div>
+
+          <div class="items">
+            <div class="card">
+              <img  src="./assets/img/bobinamaquina.jpg" alt="maquinabobina" />
+              <h3>Máquinas de Bobina</h3>
+              <p>$200.000</p>
+              <button>Agregar al Carrito</button>
+            </div>
+          </div>
+          <div class="items">
+            <div class="card">
+              <img src="./assets/img/cartrigeabriendo.jpg" alt="cartrige" />
+              <h3>Cartriges</h3>
+              <p>$18.000</p>
+              <button>Agregar al Carrito</button>
+            </div>
+          </div>
+          <div class="items">
+            <div class="card">
+              <img src="./assets/img/tintanegrajpg.jpg" alt="pigmentos" />
+              <h3>Pigmentos</h3>
+              <p>$30.000</p>
+              <button>Agregar al Carrito</button>
+            </div>
+          </div>
+          <div class="items">
+            <div class="card">
+              <img src="./assets/img/Cleanser.jpg" alt="limpieza" />
+              <h3>Limpieza</h3>
+              <p>$12.000</p>
+              <button>Agregar al Carrito</button>
+            </div>
+          </div>
+          <div class="items">
+            <div class="card">
+              <img src="./assets/img/pielsintetica22.jpg" alt="pielsintetica" />
+              <h3>Piel Sintética</h3>
+              <p>$8.000</p>
+              <button>Agregar al Carrito</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Footer -->
+      <div class="box footer">
+        DarkcrinkTattooSupplies 2024 Tienda Online. Todos los derechos
+        reservados.
+      </div>
+    </div>
+  </body>
+</html>
